@@ -1,0 +1,30 @@
+{
+  "name": "sendphotos",
+  "version": "1.0.0",
+  "description": "An app that send img -> xlsx",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanFBertaglia/FolderToSpreadsheet.git"
+  },
+  "keywords": [
+    "node",
+    "spreadsheet",
+    "automation",
+    "test"
+  ],
+  "author": "Ryan Fernandes Bertaglia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanFBertaglia/FolderToSpreadsheet/issues"
+  },
+  "homepage": "https://github.com/RyanFBertaglia/FolderToSpreadsheet#readme",
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
